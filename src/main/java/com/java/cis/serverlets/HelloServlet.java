@@ -1,4 +1,4 @@
-package com.java.cis;
+package com.java.cis.serverlets;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,6 +14,9 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter printOut = response.getWriter();
         printOut.write("Hello, This is the first servlet 3 annotation example");
+
+
+
     }
 
 }
