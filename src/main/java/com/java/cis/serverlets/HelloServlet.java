@@ -15,8 +15,6 @@ public class HelloServlet extends HttpServlet {
         PrintWriter printOut = response.getWriter();
         printOut.write("Hello, This is the first servlet 3 annotation example");
 
-
-
     }
 
 }
